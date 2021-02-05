@@ -1,0 +1,40 @@
+body{
+		background-color: #EFCFD4;
+		font-family: Nanum, Verdana, Sans-serif;
+		color: black;	
+
+}
+
+	h1{
+		
+		background-color: #E18AAA;
+		text-align: center;
+		font-size: 60px;
+		font-family: Bebas, Rockwell, Serif;
+		color: black;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		text-shadow: 5px 5px 7px #ff5d8f;
+		
+		
+	}
+	
+	h2{
+		
+		font-family: Roboto&display, Arial, Rockwell;
+		text-align: left;
+		color: black;
+		word-spacing: 5px;
+	
+	}
+	
+	p{
+		
+		line-height: 1.5;
+		background-color: pink;
+		text-align: justify;
+		text-indent: 70px;
+		word-spacing: 5px;
+		font-size: 18px;
+		
+	}
