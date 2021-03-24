@@ -1,0 +1,92 @@
+body {
+	background-color:#EEC4B4;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+h4{
+	font-size: 30px;
+	text-align: center;
+	font-family: verdana;
+	font-weight:bold;
+	border: 7px ridge #BF5452;
+	
+}
+p{
+	font-family: arial, serif;
+	font-size: 18px;
+	text-align: left;
+	line-height: 1.5;
+	margin-left:50px;
+	border-left: 5px solid #006477;
+	background-color: #E1C580 ;
+	list-style-type: none;
+	padding: 10px 20px;
+}
+.wrap{
+	background: url(MEDIAS/home3.jpg)no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navi{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #BF5452;
+}
+.navi .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navi ul{
+	float: right;
+	margin-right: 20px;
+}
+.navi ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navi ul li a{
+	font-size: 20px;
+	font-family: verdana, sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+
+}
+
+.navi ul li a:hover{
+	color:black;
+	background:#E1C580;
+	border-radius: 2px;
+}
+.wrap .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: #006477;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: left;
+}
+.center h2{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 30px;
+	width: 885px;
+	text-align: center;
+	background-color: #E1C580;
+}
